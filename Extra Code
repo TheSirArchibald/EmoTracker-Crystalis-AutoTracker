@@ -1,0 +1,95 @@
+-- Configuration --------------------------------------
+AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
+-------------------------------------------------------
+
+print("")
+print("Active Auto-Tracker Configuration")
+print("---------------------------------------------------------------------")
+print("Enable Item Tracking:        ", AUTOTRACKER_ENABLE_ITEM_TRACKING)
+print("Enable Location Tracking:    ", AUTOTRACKER_ENABLE_LOCATION_TRACKING)
+if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+    print("Enable Debug Logging:        ", "true")
+end
+print("---------------------------------------------------------------------")
+print("")
+
+U8_READ_CACHE = 0
+U8_READ_CACHE_ADDRESS = 0
+
+function autotracker_started()
+    print("Started Tracking")
+end
+
+function InvalidateReadCaches()
+    U8_READ_CACHE_ADDRESS = 0
+end
+
+function ReadU8(segment, address)
+    if U8_READ_CACHE_ADDRESS ~= address then
+        U8_READ_CACHE = segment:ReadUInt8(address)
+        U8_READ_CACHE_ADDRESS = address
+    end
+    return U8_READ_CACHE
+end
+
+function isInGame()
+  return true -- Need to eventually fix this.
+end
+
+function updateToggleItemFromByte(segment, code, address)
+    local item = Tracker:FindObjectForCode(code)
+    if item then
+        local value = ReadU8(segment, address)
+        if value > 0 and value < 255 then
+            if item.Active == false then
+                print(item.Name .. " obtained")
+                item.Active = true
+            end
+        else
+            item.Active = false
+        end
+    end
+end
+
+function updateToggleItemFromByteAndFlag(segment, code, address, flag)
+    local item = Tracker:FindObjectForCode(code)
+    if item then
+        local value = ReadU8(segment, address)
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+            print(item.Name, code, flag, value)
+        end
+
+        local flagTest = value & flag
+
+        if flagTest ~= 0 then
+            item.Active = true
+        elseif AUTOTRACKER_ENABLE_SETTING_LOCATIONS_TO_FALSE then
+            item.Active = false
+        end
+    end
+end
+
+
+function updateItemsFromMemorySegment(segment)
+    if not isInGame(segment) then
+        return false
+    end
+
+    InvalidateReadCaches()
+
+    if AUTOTRACKER_ENABLE_ITEM_TRACKING then
+
+        updateToggleItemFromByteAndFlag(segment, "swordofwind", 0x6430, 0x00)
+        updateToggleItemFromByteAndFlag(segment, "swordoffire", 0x6431, 0x01)
+        updateToggleItemFromByteAndFlag(segment, "swordofwater", 0x6432, 0x02)
+        updateToggleItemFromByteAndFlag(segment, "swordofthunder", 0x6433, 0x03)
+    
+    end
+    
+end
+
+
+-- I know this is bad practice but the amount of resets makes it so all the sanity
+-- checking needs to be done on the segment
+ScriptHost:AddMemoryWatch("Item Data", 0x6000, 0x500, updateItemsFromMemorySegment)
+

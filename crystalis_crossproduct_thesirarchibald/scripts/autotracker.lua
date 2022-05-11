@@ -690,6 +690,14 @@ function updateMoonBow(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0x3E 
@@ -699,7 +707,15 @@ function updateMoonBow(segment, code, address)
 		    or KEYITEM5 == 0x3E 
 		    or KEYITEM6 == 0x3E 
 		    or KEYITEM7 == 0x3E
-		    or KEYITEM8 == 0x3E then
+		    or KEYITEM8 == 0x3E
+            or KEYITEM9 == 0x3E
+		    or KEYITEM10 == 0x3E 
+		    or KEYITEM11 == 0x3E 
+		    or KEYITEM12 == 0x3E 
+		    or KEYITEM13 == 0x3E 
+		    or KEYITEM14 == 0x3E
+		    or KEYITEM15 == 0x3E 
+            or KEYITEM16 == 0x3E then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -720,6 +736,14 @@ function updateSunBow(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0x3F 
@@ -729,7 +753,15 @@ function updateSunBow(segment, code, address)
 		    or KEYITEM5 == 0x3F 
 		    or KEYITEM6 == 0x3F 
 		    or KEYITEM7 == 0x3F
-		    or KEYITEM8 == 0x3F then
+		    or KEYITEM8 == 0x3F 
+            or KEYITEM9 == 0x3F
+		    or KEYITEM10 == 0x3F 
+		    or KEYITEM11 == 0x3F 
+		    or KEYITEM12 == 0x3F 
+		    or KEYITEM13 == 0x3F 
+		    or KEYITEM14 == 0x3F
+		    or KEYITEM15 == 0x3F 
+            or KEYITEM16 == 0x3F then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -750,6 +782,14 @@ function updateTruthBow(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0x40 
@@ -759,7 +799,15 @@ function updateTruthBow(segment, code, address)
 		    or KEYITEM5 == 0x40 
 		    or KEYITEM6 == 0x40 
 		    or KEYITEM7 == 0x40
-		    or KEYITEM8 == 0x40 then
+		    or KEYITEM8 == 0x40 
+            or KEYITEM9 == 0x40
+		    or KEYITEM10 == 0x40 
+		    or KEYITEM11 == 0x40 
+		    or KEYITEM12 == 0x40 
+		    or KEYITEM13 == 0x40 
+		    or KEYITEM14 == 0x40
+		    or KEYITEM15 == 0x40 
+            or KEYITEM16 == 0x40 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -780,6 +828,14 @@ function updateWindKey(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0x32 
@@ -789,7 +845,15 @@ function updateWindKey(segment, code, address)
 		    or KEYITEM5 == 0x32 
 		    or KEYITEM6 == 0x32 
 		    or KEYITEM7 == 0x32
-		    or KEYITEM8 == 0x32 then
+		    or KEYITEM8 == 0x32 
+            or KEYITEM9 == 0x32
+		    or KEYITEM10 == 0x32 
+		    or KEYITEM11 == 0x32 
+		    or KEYITEM12 == 0x32 
+		    or KEYITEM13 == 0x32 
+		    or KEYITEM14 == 0x32
+		    or KEYITEM15 == 0x32 
+            or KEYITEM16 == 0x32 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -810,6 +874,14 @@ function updatePrisonKey(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0x33 
@@ -819,7 +891,15 @@ function updatePrisonKey(segment, code, address)
 		    or KEYITEM5 == 0x33 
 		    or KEYITEM6 == 0x33 
 		    or KEYITEM7 == 0x33
-		    or KEYITEM8 == 0x33 then
+		    or KEYITEM8 == 0x33 
+            or KEYITEM9 == 0x33
+		    or KEYITEM10 == 0x33 
+		    or KEYITEM11 == 0x33 
+		    or KEYITEM12 == 0x33 
+		    or KEYITEM13 == 0x33 
+		    or KEYITEM14 == 0x33
+		    or KEYITEM15 == 0x33 
+            or KEYITEM16 == 0x33 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -840,6 +920,14 @@ function updateStyxKey(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0x34 
@@ -849,7 +937,15 @@ function updateStyxKey(segment, code, address)
 		    or KEYITEM5 == 0x34 
 		    or KEYITEM6 == 0x34 
 		    or KEYITEM7 == 0x34
-		    or KEYITEM8 == 0x34 then
+		    or KEYITEM8 == 0x34 
+            or KEYITEM9 == 0x34
+		    or KEYITEM10 == 0x34 
+		    or KEYITEM11 == 0x34 
+		    or KEYITEM12 == 0x34 
+		    or KEYITEM13 == 0x34 
+		    or KEYITEM14 == 0x34
+		    or KEYITEM15 == 0x34 
+            or KEYITEM16 == 0x34 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -870,6 +966,14 @@ function updateGlowLamp(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0x39 
@@ -879,7 +983,15 @@ function updateGlowLamp(segment, code, address)
 		    or KEYITEM5 == 0x39 
 		    or KEYITEM6 == 0x39 
 		    or KEYITEM7 == 0x39
-		    or KEYITEM8 == 0x39 then
+		    or KEYITEM8 == 0x39 
+            or KEYITEM9 == 0x39
+		    or KEYITEM10 == 0x39 
+		    or KEYITEM11 == 0x39 
+		    or KEYITEM12 == 0x39 
+		    or KEYITEM13 == 0x39 
+		    or KEYITEM14 == 0x39
+		    or KEYITEM15 == 0x39 
+            or KEYITEM16 == 0x39 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -900,6 +1012,14 @@ function updateFogLamp(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0x35
@@ -909,7 +1029,15 @@ function updateFogLamp(segment, code, address)
 		    or KEYITEM5 == 0x35 
 		    or KEYITEM6 == 0x35 
 		    or KEYITEM7 == 0x35
-		    or KEYITEM8 == 0x35 then
+		    or KEYITEM8 == 0x35 
+            or KEYITEM9 == 0x35
+		    or KEYITEM10 == 0x35 
+		    or KEYITEM11 == 0x35 
+		    or KEYITEM12 == 0x35 
+		    or KEYITEM13 == 0x35 
+		    or KEYITEM14 == 0x35
+		    or KEYITEM15 == 0x35 
+            or KEYITEM16 == 0x35 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -930,6 +1058,14 @@ function updateAlarmFlute(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0x31
@@ -939,7 +1075,15 @@ function updateAlarmFlute(segment, code, address)
 		    or KEYITEM5 == 0x31 
 		    or KEYITEM6 == 0x31 
 		    or KEYITEM7 == 0x31
-		    or KEYITEM8 == 0x31 then
+		    or KEYITEM8 == 0x31 
+            or KEYITEM9 == 0x31
+		    or KEYITEM10 == 0x31 
+		    or KEYITEM11 == 0x31 
+		    or KEYITEM12 == 0x31 
+		    or KEYITEM13 == 0x31 
+		    or KEYITEM14 == 0x31
+		    or KEYITEM15 == 0x31 
+            or KEYITEM16 == 0x31 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -960,6 +1104,14 @@ function updateShellFlute(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0x36
@@ -969,7 +1121,15 @@ function updateShellFlute(segment, code, address)
 		    or KEYITEM5 == 0x36 
 		    or KEYITEM6 == 0x36 
 		    or KEYITEM7 == 0x36
-		    or KEYITEM8 == 0x36 then
+		    or KEYITEM8 == 0x36 
+            or KEYITEM9 == 0x36
+		    or KEYITEM10 == 0x36 
+		    or KEYITEM11 == 0x36 
+		    or KEYITEM12 == 0x36 
+		    or KEYITEM13 == 0x36 
+		    or KEYITEM14 == 0x36
+		    or KEYITEM15 == 0x36 
+            or KEYITEM16 == 0x36 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -990,16 +1150,32 @@ function updateBugFlute(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
-               	if KEYITEM1 == 0X27
-		    or KEYITEM2 == 0X27
-		    or KEYITEM3 == 0X27 
-		    or KEYITEM4 == 0X27 
-		    or KEYITEM5 == 0X27 
-		    or KEYITEM6 == 0X27 
-		    or KEYITEM7 == 0X27
-		    or KEYITEM8 == 0X27 then
+               	if KEYITEM1 == 0x27
+		    or KEYITEM2 == 0x27
+		    or KEYITEM3 == 0x27 
+		    or KEYITEM4 == 0x27 
+		    or KEYITEM5 == 0x27 
+		    or KEYITEM6 == 0x27 
+		    or KEYITEM7 == 0x27
+		    or KEYITEM8 == 0x27  
+            or KEYITEM9 == 0x27
+		    or KEYITEM10 == 0x27 
+		    or KEYITEM11 == 0x27 
+		    or KEYITEM12 == 0x27 
+		    or KEYITEM13 == 0x27 
+		    or KEYITEM14 == 0x27
+		    or KEYITEM15 == 0x27 
+            or KEYITEM16 == 0x27 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1020,16 +1196,32 @@ function updateLimeFlute(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
-               	if KEYITEM1 == 0X28
-		    or KEYITEM2 == 0X28
-		    or KEYITEM3 == 0X28 
-		    or KEYITEM4 == 0X28 
-		    or KEYITEM5 == 0X28 
-		    or KEYITEM6 == 0X28 
-		    or KEYITEM7 == 0X28
-		    or KEYITEM8 == 0X28 then
+               	if KEYITEM1 == 0x28
+		    or KEYITEM2 == 0x28
+		    or KEYITEM3 == 0x28 
+		    or KEYITEM4 == 0x28 
+		    or KEYITEM5 == 0x28 
+		    or KEYITEM6 == 0x28 
+		    or KEYITEM7 == 0x28
+		    or KEYITEM8 == 0x28 
+            or KEYITEM9 == 0x28
+		    or KEYITEM10 == 0x28 
+		    or KEYITEM11 == 0x28 
+		    or KEYITEM12 == 0x28 
+		    or KEYITEM13 == 0x28 
+		    or KEYITEM14 == 0x28
+		    or KEYITEM15 == 0x28 
+            or KEYITEM16 == 0x28 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1050,16 +1242,32 @@ function updateOnyxStatue(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0x25
-		    or KEYITEM2 == 0X25
-		    or KEYITEM3 == 0X25 
-		    or KEYITEM4 == 0X25 
-		    or KEYITEM5 == 0X25 
-		    or KEYITEM6 == 0X25 
-		    or KEYITEM7 == 0X25
-		    or KEYITEM8 == 0X25 then
+		    or KEYITEM2 == 0x25
+		    or KEYITEM3 == 0x25 
+		    or KEYITEM4 == 0x25 
+		    or KEYITEM5 == 0x25 
+		    or KEYITEM6 == 0x25 
+		    or KEYITEM7 == 0x25
+		    or KEYITEM8 == 0x25 
+            or KEYITEM9 == 0x25
+		    or KEYITEM10 == 0x25 
+		    or KEYITEM11 == 0x25 
+		    or KEYITEM12 == 0x25 
+		    or KEYITEM13 == 0x25 
+		    or KEYITEM14 == 0x25
+		    or KEYITEM15 == 0x25 
+            or KEYITEM16 == 0x25 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1080,16 +1288,32 @@ function updateGoldStatue(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
-               	if KEYITEM1 == 0X3A
-		    or KEYITEM2 == 0X3A
-		    or KEYITEM3 == 0X3A 
-		    or KEYITEM4 == 0X3A 
-		    or KEYITEM5 == 0X3A 
-		    or KEYITEM6 == 0X3A 
-		    or KEYITEM7 == 0X3A
-		    or KEYITEM8 == 0X3A then
+               	if KEYITEM1 == 0x3A
+		    or KEYITEM2 == 0x3A
+		    or KEYITEM3 == 0x3A 
+		    or KEYITEM4 == 0x3A 
+		    or KEYITEM5 == 0x3A 
+		    or KEYITEM6 == 0x3A 
+		    or KEYITEM7 == 0x3A
+		    or KEYITEM8 == 0x3A 
+            or KEYITEM9 == 0x3A
+		    or KEYITEM10 == 0x3A 
+		    or KEYITEM11 == 0x3A 
+		    or KEYITEM12 == 0x3A 
+		    or KEYITEM13 == 0x3A 
+		    or KEYITEM14 == 0x3A
+		    or KEYITEM15 == 0x3A 
+            or KEYITEM16 == 0x3A then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1110,16 +1334,32 @@ function updateIvoryStatue(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
-               	if KEYITEM1 == 0X3D
-		    or KEYITEM2 == 0X3D
-		    or KEYITEM3 == 0X3D 
-		    or KEYITEM4 == 0X3D 
-		    or KEYITEM5 == 0X3D 
-		    or KEYITEM6 == 0X3D 
-		    or KEYITEM7 == 0X3D
-		    or KEYITEM8 == 0X3D then
+               	if KEYITEM1 == 0x3D
+		    or KEYITEM2 == 0x3D
+		    or KEYITEM3 == 0x3D 
+		    or KEYITEM4 == 0x3D 
+		    or KEYITEM5 == 0x3D 
+		    or KEYITEM6 == 0x3D 
+		    or KEYITEM7 == 0x3D
+		    or KEYITEM8 == 0x3D 
+            or KEYITEM9 == 0x3D
+		    or KEYITEM10 == 0x3D 
+		    or KEYITEM11 == 0x3D 
+		    or KEYITEM12 == 0x3D 
+		    or KEYITEM13 == 0x3D 
+		    or KEYITEM14 == 0x3D
+		    or KEYITEM15 == 0x3D 
+            or KEYITEM16 == 0x3D then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1140,16 +1380,32 @@ function updateBrokenStatue(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
-               	if KEYITEM1 == 0X38
-		    or KEYITEM2 == 0X38
-		    or KEYITEM3 == 0X38 
-		    or KEYITEM4 == 0X3D 
-		    or KEYITEM5 == 0X38 
-		    or KEYITEM6 == 0X38 
-		    or KEYITEM7 == 0X38
-		    or KEYITEM8 == 0X38 then
+               	if KEYITEM1 == 0x38
+		    or KEYITEM2 == 0x38
+		    or KEYITEM3 == 0x38 
+		    or KEYITEM4 == 0x38 
+		    or KEYITEM5 == 0x38 
+		    or KEYITEM6 == 0x38 
+		    or KEYITEM7 == 0x38
+		    or KEYITEM8 == 0x38  
+            or KEYITEM9 == 0x38
+		    or KEYITEM10 == 0x38 
+		    or KEYITEM11 == 0x38 
+		    or KEYITEM12 == 0x38 
+		    or KEYITEM13 == 0x38 
+		    or KEYITEM14 == 0x38
+		    or KEYITEM15 == 0x38 
+            or KEYITEM16 == 0x38 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1170,16 +1426,32 @@ function updateOpelStatue(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6445)
 	    local KEYITEM7 = ReadU8(segment, 0x6446) 
     	local KEYITEM8 = ReadU8(segment, 0x6447)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
-               	if KEYITEM1 == 0X26
-		    or KEYITEM2 == 0X26
-		    or KEYITEM3 == 0X26 
-		    or KEYITEM4 == 0X26 
-		    or KEYITEM5 == 0X26 
-		    or KEYITEM6 == 0X26 
-		    or KEYITEM7 == 0X26
-		    or KEYITEM8 == 0X26 then
+               	if KEYITEM1 == 0x26
+		    or KEYITEM2 == 0x26
+		    or KEYITEM3 == 0x26 
+		    or KEYITEM4 == 0x26 
+		    or KEYITEM5 == 0x26 
+		    or KEYITEM6 == 0x26 
+		    or KEYITEM7 == 0x26
+		    or KEYITEM8 == 0x26 
+            or KEYITEM9 == 0x26
+		    or KEYITEM10 == 0x26 
+		    or KEYITEM11 == 0x26 
+		    or KEYITEM12 == 0x26 
+		    or KEYITEM13 == 0x26 
+		    or KEYITEM14 == 0x26
+		    or KEYITEM15 == 0x26 
+            or KEYITEM16 == 0x26 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1200,16 +1472,32 @@ function updateFruitofRepun(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6445)
 	    local KEYITEM7 = ReadU8(segment, 0x6446) 
     	local KEYITEM8 = ReadU8(segment, 0x6447)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
-               	if KEYITEM1 == 0X23
-		    or KEYITEM2 == 0X23
-		    or KEYITEM3 == 0X23 
-		    or KEYITEM4 == 0X23 
-		    or KEYITEM5 == 0X23 
-		    or KEYITEM6 == 0X23 
-		    or KEYITEM7 == 0X23
-		    or KEYITEM8 == 0X23 then
+               	if KEYITEM1 == 0x23
+		    or KEYITEM2 == 0x23
+		    or KEYITEM3 == 0x23 
+		    or KEYITEM4 == 0x23 
+		    or KEYITEM5 == 0x23 
+		    or KEYITEM6 == 0x23 
+		    or KEYITEM7 == 0x23
+		    or KEYITEM8 == 0x23 
+            or KEYITEM9 == 0x23
+		    or KEYITEM10 == 0x23 
+		    or KEYITEM11 == 0x23 
+		    or KEYITEM12 == 0x23 
+		    or KEYITEM13 == 0x23 
+		    or KEYITEM14 == 0x23
+		    or KEYITEM15 == 0x23 
+            or KEYITEM16 == 0x23 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1230,16 +1518,32 @@ function updateKarissaPlant(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
-               	if KEYITEM1 == 0X3C
-		    or KEYITEM2 == 0X3C
-		    or KEYITEM3 == 0X3C 
-		    or KEYITEM4 == 0X3C 
-		    or KEYITEM5 == 0X3C 
-		    or KEYITEM6 == 0X3C 
-		    or KEYITEM7 == 0X3C
-		    or KEYITEM8 == 0X3C then
+               	if KEYITEM1 == 0x3C
+		    or KEYITEM2 == 0x3C
+		    or KEYITEM3 == 0x3C 
+		    or KEYITEM4 == 0x3C 
+		    or KEYITEM5 == 0x3C 
+		    or KEYITEM6 == 0x3C 
+		    or KEYITEM7 == 0x3C
+		    or KEYITEM8 == 0x3C 
+            or KEYITEM9 == 0x3C
+		    or KEYITEM10 == 0x3C 
+		    or KEYITEM11 == 0x3C 
+		    or KEYITEM12 == 0x3C 
+		    or KEYITEM13 == 0x3C 
+		    or KEYITEM14 == 0x3C
+		    or KEYITEM15 == 0x3C 
+            or KEYITEM16 == 0x3C then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1260,16 +1564,32 @@ function updateXrayGlasses(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
-               	if KEYITEM1 == 0X37
-		    or KEYITEM2 == 0X37
-		    or KEYITEM3 == 0X37 
-		    or KEYITEM4 == 0X37 
-		    or KEYITEM5 == 0X37 
-		    or KEYITEM6 == 0X37 
-		    or KEYITEM7 == 0X37
-		    or KEYITEM8 == 0X37 then
+               	if KEYITEM1 == 0x37
+		    or KEYITEM2 == 0x37
+		    or KEYITEM3 == 0x37 
+		    or KEYITEM4 == 0x37 
+		    or KEYITEM5 == 0x37 
+		    or KEYITEM6 == 0x37 
+		    or KEYITEM7 == 0x37
+		    or KEYITEM8 == 0x37 
+            or KEYITEM9 == 0x37
+		    or KEYITEM10 == 0x37 
+		    or KEYITEM11 == 0x37 
+		    or KEYITEM12 == 0x37 
+		    or KEYITEM13 == 0x37 
+		    or KEYITEM14 == 0x37
+		    or KEYITEM15 == 0x37 
+            or KEYITEM16 == 0x37 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1290,16 +1610,32 @@ function updateLovePendant(segment, code, address)
     	local KEYITEM6 = ReadU8(segment, 0x6455)
 	    local KEYITEM7 = ReadU8(segment, 0x6456) 
     	local KEYITEM8 = ReadU8(segment, 0x6457)
+        local KEYITEM9 = ReadU8(segment, 0x64B8) 
+    	local KEYITEM10 = ReadU8(segment, 0x64B9)
+        local KEYITEM11 = ReadU8(segment, 0x64BA) 
+    	local KEYITEM12 = ReadU8(segment, 0x64BB)
+	    local KEYITEM13 = ReadU8(segment, 0x64BC) 
+    	local KEYITEM14 = ReadU8(segment, 0x64BD)
+	    local KEYITEM15 = ReadU8(segment, 0x64BE) 
+    	local KEYITEM16 = ReadU8(segment, 0x64BF)
 	
 	if item  then    
                	if KEYITEM1 == 0X3B
-		    or KEYITEM2 == 0X3B
-		    or KEYITEM3 == 0X3B 
-		    or KEYITEM4 == 0X3B 
-		    or KEYITEM5 == 0X3B 
-		    or KEYITEM6 == 0X3B 
-		    or KEYITEM7 == 0X3B
-		    or KEYITEM8 == 0X3B then
+		    or KEYITEM2 == 0x3B
+		    or KEYITEM3 == 0x3B 
+		    or KEYITEM4 == 0x3B 
+		    or KEYITEM5 == 0x3B 
+		    or KEYITEM6 == 0x3B 
+		    or KEYITEM7 == 0x3B
+		    or KEYITEM8 == 0x3B 
+            or KEYITEM9 == 0x3B
+		    or KEYITEM10 == 0x3B 
+		    or KEYITEM11 == 0x3B 
+		    or KEYITEM12 == 0x3B 
+		    or KEYITEM13 == 0x3B 
+		    or KEYITEM14 == 0x3B
+		    or KEYITEM15 == 0x3B 
+            or KEYITEM16 == 0x3B then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1318,10 +1654,10 @@ function updatePsychoArmor(segment, code, address)
     	local KEYITEM4 = ReadU8(segment, 0x6437)
 	
 	if item  then    
-               	if KEYITEM1 == 0X1C
-		    or KEYITEM2 == 0X1C
-		    or KEYITEM3 == 0X1C 
-		    or KEYITEM4 == 0X1C then
+               	if KEYITEM1 == 0x1C
+		    or KEYITEM2 == 0x1C
+		    or KEYITEM3 == 0x1C 
+		    or KEYITEM4 == 0x1C then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true
@@ -1340,10 +1676,10 @@ function updateSacredShield(segment, code, address)
     	local KEYITEM4 = ReadU8(segment, 0x643B)
 	
 	if item  then    
-               	if KEYITEM1 == 0X12
-		    or KEYITEM2 == 0X12
-		    or KEYITEM3 == 0X12 
-		    or KEYITEM4 == 0X12 then
+               	if KEYITEM1 == 0x12
+		    or KEYITEM2 == 0x12
+		    or KEYITEM3 == 0x12 
+		    or KEYITEM4 == 0x12 then
             		if item.Active == false then
                 		print(item.Name .. " obtained")
                 		item.Active = true

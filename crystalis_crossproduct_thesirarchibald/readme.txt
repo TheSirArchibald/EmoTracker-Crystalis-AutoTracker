@@ -64,6 +64,9 @@ your locations.
 
 		>>> CHANGE LOG <<<
 
+v1.3.0
+	- Autotracking support added!
+
 v1.2.0
 	- Sub area maps and all minor item locations added!
 	- "changelog.txt" renamed to "readme.txt" (So meta!)

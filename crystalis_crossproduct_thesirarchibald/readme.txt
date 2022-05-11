@@ -10,6 +10,9 @@ EmoTracker Pack by
 	crossproduct
 	twitch.tv/crossproduct
 	Discord: crossproduct#0042
+	TheSirArchibald
+	twitch.tv/thesirarchibald
+	Discord: TheSirArchibald#9807
 
 Maps are from Mike's RPG Center >>> http://mikesrpgcenter.com/crystalis/index.html
 

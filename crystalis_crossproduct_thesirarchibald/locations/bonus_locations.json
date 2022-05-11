@@ -1,0 +1,133 @@
+﻿[
+	// Power Ring
+	{
+		"name": "Oasis Cave",
+		"color": "#0000ff",
+		"access_rules": [
+			"$canAccessGoa,$canCrossRivers,$canBreakIronWalls"
+		],
+		"sections": [
+			{
+				"name": "Behind Iron Wall",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1015,
+				"y": 316
+			}
+		]
+	},
+	
+	// Warrior Ring
+	{
+		"name": "Aka'migo",
+		"color": "#0000ff",
+		"access_rules": [
+			"$canAccessGoa,ivory,change"
+		],
+		"sections": [
+			{
+				"name": "Change into Akahana",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 912,
+				"y": 154
+			}
+		]
+	},
+	
+	// Iron Necklace
+	{
+		"name": "Evil Spirit Island (Visit Joel first)",
+		"color": "#0000ff",
+		"access_rules": [
+			"$canAccessJoel,$canCrossRivers,$canBreakStoneWalls"
+		],
+		"sections": [
+			{
+				"name": "West River Room (Iron Necklace)",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1622,
+				"y": 454
+			}
+		]
+	},
+	
+	// Deo's Pendant
+	{
+		"name": "Bunny Field",
+		"color": "#0000ff",
+		"access_rules": [
+			"$canAccessSahara,change"
+		],
+		"sections": [
+			{
+				"name": "Change to Stom, talk to Deo",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1176,
+				"y": 352
+			}
+		]
+	},
+	
+	// Speed Boots
+	{
+		"name": "Oasis Cave",
+		"color": "#0000ff",
+		"access_rules": [
+			"$canAccessGoa"
+		],
+		"sections": [
+			{
+				"name": "Chest on left side of big room",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 924,
+				"y": 316
+			}
+		]
+	},
+	
+	// Shield Ring
+	{
+		"name": "Waterfall Cave",
+		"color": "#0000ff",
+		"access_rules": [
+			"$canAccessPortoa,$canBreakIceWalls,lime"
+		],
+		"sections": [
+			{
+				"name": "Use Flute of Lime on Akahana (NOT ON VILLAGERS!)",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1680,
+				"y": 996
+			}
+		]
+	}
+]

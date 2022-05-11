@@ -1,0 +1,276 @@
+﻿[
+	// Sword of Wind
+	{
+		"name": "Leaf Village",
+		"color": "#ffffff",
+		"access_rules": [
+			""
+		],
+		"sections": [
+			{
+				"name": "Leaf Elder",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 520,
+				"y": 1464
+			}
+		]
+	},
+	
+	// Ball of Wind
+	{
+		"name": "Wind Cave",
+		"color": "#ffffff",
+		"access_rules": [
+			"windmill",
+			"$canBreakIceWalls,$canBreakStoneWalls"
+			// Wild Warp gives access as well!
+		],
+		"sections": [
+			{
+				"name": "Ball of Wind",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 310,
+				"y": 1050
+			}
+		]
+	},
+	
+	// Tornado Bracelet
+	{
+		"name": "Mt Sabre West",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canBreakIceWalls,$canClimbSlope"
+		],
+		"sections": [
+			{
+				"name": "Hop (or Speed) up the slide",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 104,
+				"y": 1128
+			}
+		]
+	},	
+
+	// Sword of Fire
+	// Insect Flute
+	{
+		"name": "Oak Village (Talk to Mom and save Piglet)",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessOak,telepathy"
+		],
+		"sections": [
+			{
+				"name": "Mom",
+                "item_count": 1
+			},
+			{
+				"name": "Oak Elder",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 916,
+				"y": 912
+			}
+		]
+	},
+
+	// Ball of Fire
+	{
+		"name": "Insect Boss",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessOak,insect,$canKillInsect"
+		],
+		"sections": [
+			{
+				"name": "Use Insect Flute at dead end",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1016,
+				"y": 912
+			}
+		]
+	},
+
+	// Flame Bracelet
+	{
+		"name": "Mt Sabre North",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessSabreNorth,$canBreakIceWalls,$canKillKelbesque",
+			"$canAccessSabreNorth,flight,$canKillKelbesque",
+			"$canAccessPortoa,flight,$canBreakIceWalls,$canKillKelbesque" // WW will mess this up
+		],
+		"sections": [
+			{
+				"name": "Kelbesque (use Wind)",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1100,
+				"y": 756
+			}
+		]
+	},
+
+	// Sword of Water
+	// Flute of Lime #2
+	{
+		"name": "Waterfall Cave",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessPortoa,$canBypassStatues,$canBreakIceWalls"
+		],
+		"sections": [
+			{
+				"name": "Clip through statues",
+                "item_count": 2
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1584,
+				"y": 996
+			}
+		]
+	},
+
+	// Ball of Water
+	{
+		"name": "Lime Tree",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessPortoa,water"
+		],
+		"sections": [
+			{
+				"name": "Rage",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 966,
+				"y": 1252
+			}
+		]
+	},
+
+	// Blizzard Bracelet
+	{
+		"name": "Amazones",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessAmazones,$canBypassGuards"
+		],
+		"sections": [
+			{
+				"name": "Storage Room",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 580,
+				"y": 1014
+			}
+		]
+	},
+
+	// Sword of Thunder
+	{
+		"name": "Stxy",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessStxy"
+		],
+		"sections": [
+			{
+				"name": "Spiky Basement",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 104,
+				"y": 296
+			}
+		]
+	},
+
+	// Ball of Thunder
+	{
+		"name": "Mado (use Water)",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessGoa,thunder,$canCrossRivers,$canKillMado"
+		],
+		"sections": [
+			{
+				"name": "Enter Goa w/ Thunder to trigger massacre",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 152,
+				"y": 554
+			}
+		]
+	},
+
+	// Storm Bracelet
+	// Ivory Statue
+	{
+		"name": "Goa Fortress",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessKarmine,$canKillKarmine"
+		],
+		"sections": [
+			{
+				"name": "Karmine (use Thunder)",
+                "item_count": 2
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1014,
+				"y": 614
+			}
+		]
+	}
+]

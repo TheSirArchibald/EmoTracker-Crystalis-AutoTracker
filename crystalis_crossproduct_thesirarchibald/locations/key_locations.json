@@ -1,0 +1,426 @@
+﻿[
+	// Bow of Moon
+	{
+		"name": "Queen Aryllis",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessAmazones,change,kirisa"
+		],
+		"sections": [
+			{
+				"name": "Change to woman and give Kirisa Plant",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 462,
+				"y": 1014
+			}
+		]
+	},
+	
+	// Bow of Sun
+	{
+		"name": "Mt Hydra",
+		"color": "#ffffff",
+		"access_rules": [
+			"flight,$canAccessGoa,$canBreakStoneWalls"
+		],
+		"sections": [
+			{
+				"name": "Summit Island",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 40,
+				"y": 60
+			}
+		]
+	},
+	
+	// Bow of Truth
+	// Psycho Armor
+	{
+		"name": "Big Pyramid",
+		"color": "#ffffff",
+		"access_rules": [
+			"flight,$canAccessSahara,$hasSword"
+		],
+		"sections": [
+			{
+				"name": "Draygon 1",
+                "item_count": 2
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1174,
+				"y": 540
+			}
+		]
+	},
+	
+	// Windmill Key
+	{
+		"name": "Windmill Keeper",
+		"color": "#ffffff",
+		"access_rules": [
+			""
+		],
+		"sections": [
+			{
+				"name": "Talk to Zebu first",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 520,
+				"y": 1176
+			}
+		]
+	},
+	
+	// Prison Key
+	{
+		"name": "Mt Sabre North",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessSabreNorth,$canBreakIceWalls"
+		],
+		"sections": [
+			{
+				"name": "Behind left prison",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 944,
+				"y": 756
+			}
+		]
+	},
+	
+	// Key to Stxy
+	{
+		"name": "Shyron",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessShyron"
+		],
+		"sections": [
+			{
+				"name": "Talk to Zebu",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 56,
+				"y": 554
+			}
+		]
+	},
+	
+	// Insect Flute -> included with Sword of Fire
+	
+	// Flute of Lime
+	{
+		"name": "Queen of Portoa",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessPortoa,$canBypassGuards"
+		],
+		"sections": [
+			{
+				"name": "Clip into back room first",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1150,
+				"y": 1176
+			}
+		]
+	},
+	
+	// Shell Flute
+	{
+		"name": "Dolphin",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessPortoa,$canTriggerMesia,$canCrossRivers"
+		],
+		"sections": [
+			{
+				"name": "Talk to Asina, give dolphin an herb",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1414,
+				"y": 1024
+			}
+		]
+	},
+	
+	// Statue of Onyx
+	{
+		"name": "Item in grass",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessBrynmaer"
+		],
+		"sections": [
+			{
+				"name": "Walk on bridge first",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 520,
+				"y": 764
+			}
+		]
+	},
+	
+	// Broken Statue
+	{
+		"name": "Zombie Town",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessZombieTown,$canKillSabera"
+		],
+		"sections": [
+			{
+				"name": "Sabera the Teenage Witch (use Fire)",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1680,
+				"y": 54
+			}
+		]
+	},
+	
+	// Ivory Statue -> included with Storm Bracelet
+	
+	// Fog Lamp
+	{
+		"name": "Portoa Area",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessPortoa,$canCrossRivers,$canBreakStoneWalls"
+		],
+		"sections": [
+			{
+				"name": "North cave (Fog Lamp)",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1664,
+				"y": 1176
+			}
+		]
+	},
+	
+	// Glowing Lamp
+	{
+		"name": "Lighthouse",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessJoel,glasses"
+		],
+		"sections": [
+			{
+				"name": "Use Eyeglasses in Joel shed, use Alarm Flute on Kensu",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1624,
+				"y": 764
+			}
+		]
+	},
+	
+	// Eyeglasses
+	{
+		"name": "Clark Kent's hideout",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessZombieTown,$canKillSabera"
+		],
+		"sections": [
+			{
+				"name": "Kill Sabera first",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1550,
+				"y": 174
+			}
+		]
+	},
+	
+	// Kirisa Plant
+	{
+		"name": "Portoa Area",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessPortoa,$canCrossRivers,$canBreakStoneWalls"
+		],
+		"sections": [
+			{
+				"name": "South cave (Kirisa Plant)",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1644,
+				"y": 1426
+			}
+		]
+	},
+	
+	// Love Pendant
+	{
+		"name": "Portoa Waterway",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessJoel"
+		],
+		"sections": [
+			{
+				"name": "Swim / Fly along north wall",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1414,
+				"y": 916
+			}
+		]
+	},
+	
+	// Psycho Armor -> included with Bow of Truth
+
+	// Fruit of Power
+	{
+		"name": "Zombie Town",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessZombieTown"
+		],
+		"sections": [
+			{
+				"name": "Vampire 2",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1560,
+				"y": 54
+			}
+		]
+	},
+	
+	// Opal Statue
+	{
+		"name": "Goa Fortress",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessKelbesque,$canKillKelbesque"
+		],
+		"sections": [
+			{
+				"name": "Kelbesque 2 (use Wind)",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 684,
+				"y": 614
+			}
+		]
+	},
+	
+	// Fruit of Repun
+	{
+		"name": "Goa Fortress",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessSabera,$canKillSabera"
+		],
+		"sections": [
+			{
+				"name": "Sabera 2 (use Fire)",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 778,
+				"y": 614
+			}
+		]
+	},
+	
+	// Sacred Shield
+	{
+		"name": "Goa Fortress",
+		"color": "#ffffff",
+		"access_rules": [
+			"$canAccessMado,$canKillMado"
+		],
+		"sections": [
+			{
+				"name": "Mado 2 (use Water)",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 894,
+				"y": 614
+			}
+		]
+	}
+]

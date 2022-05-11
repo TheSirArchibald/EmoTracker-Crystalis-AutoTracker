@@ -1,0 +1,46 @@
+﻿[
+	// Gas Mask
+	{
+		"name": "Akahana",
+		"color": "#ffffff",
+		"access_rules": [
+			"onyx,$canAccessBrynmaer"
+		],
+		"sections": [
+			{
+				"name": "Give him Statue of Onyx",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 54,
+				"y": 759
+			}
+		]
+	},
+
+	// Rabbit Boots
+	{
+		"name": "Wind Cave",
+		"color": "#ffffff",
+		"access_rules": [
+			"windmill,$canBreakStoneWalls",
+			"$canAccessBrynmaer,$canBreakStoneWalls"
+		],
+		"sections": [
+			{
+				"name": "Vampire Boss",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 310,
+				"y": 916
+			}
+		]
+	}
+]

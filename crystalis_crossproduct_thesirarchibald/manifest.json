@@ -1,0 +1,22 @@
+﻿{
+  "name": "Crystalis Randomizer",
+  "game_name": "Crystalis Randomizer",
+  "platform": "nes",
+  "package_version": "1.2.0",
+  "package_uid": "crystalis_crossproduct_thesirarchibald",
+  "author": "crossproduct_thesirarchibald",
+  "variants": {
+    "items_only": {
+      "display_name": "Items Only"
+    },
+    "items_and_locations": {
+      "display_name": "Items with BG Toggle"
+    },
+    "items_and_map_intermediate": {
+      "display_name": "Items / Map (Intermediate)"
+    },
+    "items_and_map_custom": {
+      "display_name": "Items / Map (custom flags)"
+    }
+  }
+}

@@ -1,0 +1,180 @@
+﻿[
+	// Refresh
+	{
+		"name": "Refresh",
+		"color": "#00ffff",
+		"access_rules": [
+			"windmill"
+		],
+		"sections": [
+			{
+				"name": "Activate Windmill",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 258,
+				"y": 1194
+			}
+		]
+	},
+	
+	// Paralysis
+	{
+		"name": "Paralysis",
+		"color": "#00ffff",
+		"access_rules": [
+			"$canAccessPortoa,flight",
+			"$canAccessSabreNorth,flight,$canKillKelbesque,prison",
+			"$canAccessSabreNorth,$canBreakIceWalls,$canKillKelbesque,prison"
+		],
+		"sections": [
+			{
+				"name": "Free Lunch (for now)",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1208,
+				"y": 854
+			}
+		]
+	},
+	
+	// Telepathy
+	{
+		"name": "Telepathy",
+		"color": "#00ffff",
+		"access_rules": [
+			"$canAccessOak"
+		],
+		"sections": [
+			{
+				"name": "Visit Oak first",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 518,
+				"y": 544
+			}
+		]
+	},
+	
+	// Teleport
+	{
+		"name": "Teleport",
+		"color": "#00ffff",
+		"access_rules": [
+			"$canBreakIceWalls,tornado"
+		],
+		"sections": [
+			{
+				"name": "Tornel in Mt Sabre West",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 104,
+				"y": 1236
+			}
+		]
+	},
+	
+	// Recover
+	{
+		"name": "Recover",
+		"color": "#00ffff",
+		"access_rules": [
+			"$canAccessPortoa,$canTriggerMesia,$canCrossRivers"
+		],
+		"sections": [
+			{
+				"name": "Talk to Mesia & go behind throne room",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1414,
+				"y": 1132
+			}
+		]
+	},
+	
+	// Barrier
+	{
+		"name": "Barrier",
+		"color": "#00ffff",
+		"access_rules": [
+			"$canAccessBarrier"
+		],
+		"sections": [
+			{
+				"name": "Use Glowing Lamp & place statue on pedestal",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1434,
+				"y": 280
+			}
+		]
+	},
+	
+	// Change
+	{
+		"name": "Change",
+		"color": "#00ffff",
+		"access_rules": [
+			"$canAccessSwan,paralysis"
+		],
+		"sections": [
+			{
+				"name": "Talk to Stom, Paralyze Kensu x2, give Love Pendant",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1338,
+				"y": 104
+			}
+		]
+	},
+	
+	// Flight
+	{
+		"name": "Flight",
+		"color": "#00ffff",
+		"access_rules": [
+			"ivory,$canAccessGoa,flight",
+			"ivory,$canAccessMado,$canKillMado"
+		],
+		"sections": [
+			{
+				"name": "Use Ivory Statue on Blob-su (4th floor)",
+                "item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map_full",
+				"x": 1024,
+				"y": 48
+			}
+		]
+	}
+]

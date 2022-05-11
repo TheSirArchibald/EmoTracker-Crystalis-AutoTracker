@@ -1,0 +1,2206 @@
+[
+    // Sword of Wind
+    {
+      "name": "Sword of Wind",
+      "type": "toggle",
+      "img": "images/0011.png",
+      "loop": "true",
+//	  "disabled_img": "images/0000.png",
+      "codes": "wind,swordofwind,windsword"
+    },
+    {
+      "name": "L-Sword of Wind",
+      "type": "toggle",
+      "codes": "lwind,swordofwind,lwindsword"
+    },
+    {
+      "name": "Sword of Wind Tile",
+      "type": "composite_toggle",
+      "codes": "00",
+	  "item_left": "wind",
+      "item_right": "lwind",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/0000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/0010.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/0001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/0011.png"
+        }
+      ]
+    },
+
+    // Sword of Fire
+    {
+      "name": "Sword of Fire",
+      "type": "toggle",
+      "img": "images/0111.png",
+      "loop": "true",
+//	  "disabled_img": "images/0100.png",
+      "codes": "fire,swordoffire,firesword"
+    },
+    {
+      "name": "L-Sword of Fire",
+      "type": "toggle",
+      "codes": "lfire,lswordoffire,lfiresword"
+    },
+    {
+      "name": "Sword of Fire Tile",
+      "type": "composite_toggle",
+      "codes": "01",
+      "item_left": "fire",
+      "item_right": "lfire",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/0100.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/0110.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/0101.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/0111.png"
+        }
+      ]
+    },
+
+    // Sword of Water
+    {
+      "name": "Sword of Water",
+      "img": "images/0211.png",
+      "loop": "true",
+//	  "disabled_img": "images/0200.png",
+      "type": "toggle",
+      "codes": "water,swordofwater,watersword"
+    },
+    {
+      "name": "L-Sword of Water",
+      "type": "toggle",
+      "codes": "lwater,lswordofwater,lwatersword"
+    },
+    {
+      "name": "Sword of Water Tile",
+      "type": "composite_toggle",
+      "codes": "02",
+      "item_left": "water",
+      "item_right": "lwater",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/0200.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/0210.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/0201.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/0211.png"
+        }
+      ]
+    },
+
+    // Sword of Thunder
+    {
+      "name": "Sword of Thunder",
+      "type": "toggle",
+      "img": "images/0311.png",
+      "loop": "true",
+//	  "disabled_img": "images/0300.png",
+      "codes": "thunder,swordofthunder,thundersword"
+    },
+    {
+      "name": "L-Sword of Thunder",
+      "type": "toggle",
+      "codes": "lthunder,lswordofthunder,lthundersword"
+    },
+    {
+      "name": "Sword of Thunder Tile",
+      "type": "composite_toggle",
+      "codes": "03",
+      "item_left": "thunder",
+      "item_right": "lthunder",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/0300.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/0310.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/0301.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/0311.png"
+        }
+      ]
+    },
+
+    // Bow of Moon
+    {
+      "name": "Bow of Moon",
+      "type": "toggle",
+      "img": "images/0411.png",
+      "loop": "true",
+//	  "disabled_img": "images/0400.png",
+      "codes": "moon,bowofmoon,moonbow"
+    },
+    {
+      "name": "L-Bow of Moon",
+      "type": "toggle",
+      "codes": "lmoon,lbowofmoon,lmoonbow"
+    },
+    {
+      "name": "Bow of Moon Tile",
+      "type": "composite_toggle",
+      "codes": "04",
+      "item_left": "moon",
+      "item_right": "lmoon",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/0400.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/0410.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/0401.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/0411.png"
+        }
+      ]
+    },
+
+    // Bow of Sun
+    {
+      "name": "Bow of Sun",
+      "type": "toggle",
+      "img": "images/0511.png",
+      "loop": "true",
+//	  "disabled_img": "images/0500.png",
+      "codes": "sun,bowofsun,sunbow"
+    },
+    {
+      "name": "L-Bow of Sun",
+      "type": "toggle",
+      "codes": "lsun,lbowofsun,lsunbow"
+    },
+    {
+      "name": "Bow of Sun Tile",
+      "type": "composite_toggle",
+      "codes": "05",
+      "item_left": "sun",
+      "item_right": "lsun",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/0500.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/0510.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/0501.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/0511.png"
+        }
+      ]
+    },
+
+    // Bow of Truth
+    {
+      "name": "Bow of Truth",
+      "type": "toggle",
+      "img": "images/0611.png",
+      "loop": "true",
+//	  "disabled_img": "images/0600.png",
+      "codes": "truth,bowoftruth,truthbow"
+    },
+    {
+      "name": "L-Bow of Truth",
+      "type": "toggle",
+      "codes": "ltruth,lbowoftruth,ltruthbow"
+    },
+    {
+      "name": "Bow of Truth Tile",
+      "type": "composite_toggle",
+      "codes": "06",
+      "item_left": "truth",
+      "item_right": "ltruth",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/0600.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/0610.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/0601.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/0611.png"
+        }
+      ]
+    },
+
+    // Ball of Wind
+    {
+      "name": "Ball of Wind",
+      "type": "toggle",
+      "img": "images/1011.png",
+      "loop": "true",
+//	  "disabled_img": "images/1000.png",
+      "codes": "windball,ballofwind"
+    },
+    {
+      "name": "L-Ball of Wind",
+      "type": "toggle",
+      "codes": "lwindball,lballofwind"
+    },
+    {
+      "name": "Ball of Wind Tile",
+      "type": "composite_toggle",
+      "codes": "10",
+      "item_left": "windball",
+      "item_right": "lwindball",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/1000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/1010.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/1001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/1011.png"
+        }
+      ]
+    },
+
+    // Ball of Fire
+    {
+      "name": "Ball of Fire",
+      "type": "toggle",
+      "img": "images/1111.png",
+      "loop": "true",
+//	  "disabled_img": "images/1000.png",
+      "codes": "fireball,balloffire"
+    },
+    {
+      "name": "L-Ball of Fire",
+      "type": "toggle",
+      "codes": "lfireball,lballoffire"
+    },
+    {
+      "name": "Ball of Fire Tile",
+      "type": "composite_toggle",
+      "codes": "11",
+      "item_left": "fireball",
+      "item_right": "lfireball",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/1000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/1110.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/1001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/1111.png"
+        }
+      ]
+    },
+
+    // Ball of Water
+    {
+      "name": "Ball of Water",
+      "type": "toggle",
+      "img": "images/1211.png",
+      "loop": "true",
+//	  "disabled_img": "images/1000.png",
+      "codes": "waterball,ballofwater"
+    },
+    {
+      "name": "L-Ball of Water",
+      "type": "toggle",
+      "codes": "lwaterball,lballofwater"
+    },
+    {
+      "name": "Ball of Water Tile",
+      "type": "composite_toggle",
+      "codes": "12",
+      "item_left": "waterball",
+      "item_right": "lwaterball",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/1000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/1210.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/1001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/1211.png"
+        }
+      ]
+    },
+
+    // Ball of Thunder
+    {
+      "name": "Ball of Thunder",
+      "type": "toggle",
+      "img": "images/1311.png",
+      "loop": "true",
+//	  "disabled_img": "images/1000.png",
+      "codes": "thunderball,ballofthunder"
+    },
+    {
+      "name": "L-Ball of Thunder",
+      "type": "toggle",
+      "codes": "lthunderball,lballofthunder"
+    },
+    {
+      "name": "Ball of Thunder Tile",
+      "type": "composite_toggle",
+      "codes": "13",
+      "item_left": "thunderball",
+      "item_right": "lthunderball",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/1000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/1310.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/1001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/1311.png"
+        }
+      ]
+    },
+
+    // Windmill Key
+    {
+      "name": "Windmill Key",
+      "type": "toggle",
+      "img": "images/1411.png",
+      "loop": "true",
+//	  "disabled_img": "images/1400.png",
+      "codes": "windmill,mill,windmillkey"
+    },
+    {
+      "name": "L-Windmill Key",
+      "type": "toggle",
+      "codes": "lwindmill,lmill,lwindmillkey"
+    },
+    {
+      "name": "Windmill Key Tile",
+      "type": "composite_toggle",
+      "codes": "14",
+      "item_left": "windmill",
+      "item_right": "lwindmill",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/1400.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/1410.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/1401.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/1411.png"
+        }
+      ]
+    },
+
+    // Key to Prison
+    {
+      "name": "Key to Prison",
+      "type": "toggle",
+      "img": "images/1511.png",
+      "loop": "true",
+//	  "disabled_img": "images/1500.png",
+      "codes": "prison,keytoprison"
+    },
+    {
+      "name": "L-Key to Prison",
+      "type": "toggle",
+      "codes": "lprison,lkeytoprison"
+    },
+    {
+      "name": "Key to Prison Tile",
+      "type": "composite_toggle",
+      "codes": "15",
+      "item_left": "prison",
+      "item_right": "lprison",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/1500.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/1510.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/1501.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/1511.png"
+        }
+      ]
+    },
+
+    // Key to Stxy
+    {
+      "name": "Key to Stxy",
+      "type": "toggle",
+      "img": "images/1611.png",
+      "loop": "true",
+//	  "disabled_img": "images/1600.png",
+      "codes": "stxy,styx,keytostyx,keytostxy"
+    },
+    {
+      "name": "L-Key to Stxy",
+      "type": "toggle",
+      "codes": "lstxy,lstyx,lkeytostyx,lkeytostxy"
+    },
+    {
+      "name": "Key to Stxy Tile",
+      "type": "composite_toggle",
+      "codes": "16",
+      "item_left": "stxy",
+      "item_right": "lstxy",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/1600.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/1610.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/1601.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/1611.png"
+        }
+      ]
+    },
+
+   // Tornado Bracelet
+    {
+      "name": "Tornado Bracelet",
+      "type": "toggle",
+      "img": "images/2011.png",
+      "loop": "true",
+//	  "disabled_img": "images/2000.png",
+      "codes": "tornado,tornadobrcelet,windbracelet"
+    },
+    {
+      "name": "L-Tornado Bracelet",
+      "type": "toggle",
+      "codes": "ltornado,ltornadobracelet,lwindbracelet"
+    },
+    {
+      "name": "Tornado Bracelet Tile",
+      "type": "composite_toggle",
+      "codes": "20",
+      "item_left": "tornado",
+      "item_right": "ltornado",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/2000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/2010.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/2001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/2011.png"
+        }
+      ]
+    },
+
+    // Flame Bracelet
+    {
+      "name": "Flame Bracelet",
+      "type": "toggle",
+      "img": "images/2111.png",
+      "loop": "true",
+//	  "disabled_img": "images/2000.png",
+      "codes": "flame,flamebracelet,firebracelet"
+    },
+    {
+      "name": "L-Flame Bracelet",
+      "type": "toggle",
+      "codes": "lflame,lflamebracelet,lfirebracelet"
+    },
+    {
+      "name": "Flame Bracelet Tile",
+      "type": "composite_toggle",
+      "codes": "21",
+      "item_left": "flame",
+      "item_right": "lflame",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/2000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/2110.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/2001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/2111.png"
+        }
+      ]
+    },
+
+    // Blizzard Bracelet
+    {
+      "name": "Blizzard Bracelet",
+      "type": "toggle",
+      "img": "images/2211.png",
+      "loop": "true",
+//	  "disabled_img": "images/2000.png",
+      "codes": "blizzard,blizzardbracelet,waterbracelet"
+    },
+    {
+      "name": "L-Blizzard Bracelet",
+      "type": "toggle",
+      "codes": "lblizzard,lblizzardbracelet,lwaterbracelet"
+    },
+    {
+      "name": "Blizzard Bracelet Tile",
+      "type": "composite_toggle",
+      "codes": "22",
+      "item_left": "blizzard",
+      "item_right": "lblizzard",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/2000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/2210.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/2001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/2211.png"
+        }
+      ]
+    },
+
+    // Storm Bracelet
+    {
+      "name": "Storm Bracelet",
+      "type": "toggle",
+      "img": "images/2311.png",
+      "loop": "true",
+//	  "disabled_img": "images/2000.png",
+      "codes": "storm,stormbracelet,thunderbracelet"
+    },
+    {
+      "name": "L-Storm Bracelet",
+      "type": "toggle",
+      "codes": "lstorm,lstormbracelet,lthunderbracelet"
+    },
+    {
+      "name": "Storm Bracelet Tile",
+      "type": "composite_toggle",
+      "codes": "23",
+      "item_left": "storm",
+      "item_right": "lstorm",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/2000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/2310.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/2001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/2311.png"
+        }
+      ]
+    },
+
+    // Insect Flute
+    {
+      "name": "Insect Flute",
+      "type": "toggle",
+      "img": "images/2411.png",
+      "loop": "true",
+//	  "disabled_img": "images/2400.png",
+      "codes": "insect,insectflute"
+    },
+    {
+      "name": "L-Insect Flute",
+      "type": "toggle",
+      "codes": "linsect,linsectflute"
+    },
+    {
+      "name": "Insect Flute Tile",
+      "type": "composite_toggle",
+      "codes": "24",
+      "item_left": "insect",
+      "item_right": "linsect",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/2400.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/2410.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/2401.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/2411.png"
+        }
+      ]
+    },
+
+    // Flute of Lime
+    {
+      "name": "Flute of Lime",
+      "type": "toggle",
+      "img": "images/2511.png",
+      "loop": "true",
+//	  "disabled_img": "images/2500.png",
+      "codes": "lime,fluteoflime"
+    },
+    {
+      "name": "L-Flute of Lime",
+      "type": "toggle",
+      "codes": "llime,lfluteoflime"
+    },
+    {
+      "name": "Flute of Lime Tile",
+      "type": "composite_toggle",
+      "codes": "25",
+      "item_left": "lime",
+      "item_right": "llime",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/2500.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/2510.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/2501.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/2511.png"
+        }
+      ]
+    },
+
+    // Shell Flute
+    {
+      "name": "Shell Flute",
+      "type": "toggle",
+      "img": "images/2611.png",
+      "loop": "true",
+//	  "disabled_img": "images/2600.png",
+      "codes": "shell,shellflute"
+    },
+    {
+      "name": "L-Shell Flute",
+      "type": "toggle",
+      "codes": "lshell,lshellflute"
+    },
+    {
+      "name": "Shell Flute Tile",
+      "type": "composite_toggle",
+      "codes": "26",
+      "item_left": "shell",
+      "item_right": "lshell",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/2600.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/2610.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/2601.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/2611.png"
+        }
+      ]
+    },
+
+    // Gas Mask
+    {
+      "name": "Gas Mask",
+      "type": "toggle",
+      "img": "images/3011.png",
+      "loop": "true",
+//	  "disabled_img": "images/3000.png",
+      "codes": "gas,gasmask"
+    },
+    {
+      "name": "L-Gas Mask",
+      "type": "toggle",
+      "codes": "lgas,lgasmask"
+    },
+    {
+      "name": "Gas Mask Tile",
+      "type": "composite_toggle",
+      "codes": "30",
+      "item_left": "gas",
+      "item_right": "lgas",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/3000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/3010.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/3001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/3011.png"
+        }
+      ]
+    },
+
+    // Power Ring
+    {
+      "name": "Power Ring",
+      "type": "toggle",
+      "img": "images/3111.png",
+      "loop": "true",
+//	  "disabled_img": "images/3100.png",
+      "codes": "power,powerring"
+    },
+    {
+      "name": "L-Power Ring",
+      "type": "toggle",
+      "codes": "lpower,lpowerring"
+    },
+    {
+      "name": "Power Ring Tile",
+      "type": "composite_toggle",
+      "codes": "31",
+      "item_left": "power",
+      "item_right": "lpower",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/3100.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/3110.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/3101.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/3111.png"
+        }
+      ]
+    },
+
+    // Warrior Ring
+    {
+      "name": "Warrior Ring",
+      "type": "toggle",
+      "img": "images/3211.png",
+      "loop": "true",
+//	  "disabled_img": "images/3200.png",
+      "codes": "warrior,warriorring"
+    },
+    {
+      "name": "L-Warrior Ring",
+      "type": "toggle",
+      "codes": "lwarrior,lwarriorring"
+    },
+    {
+      "name": "Warrior Ring Tile",
+      "type": "composite_toggle",
+      "codes": "32",
+      "item_left": "warrior",
+      "item_right": "lwarrior",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/3200.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/3210.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/3201.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/3211.png"
+        }
+      ]
+    },
+
+    // Iron Pendant
+    {
+      "name": "Iron Pendant",
+      "type": "toggle",
+      "img": "images/3311.png",
+      "loop": "true",
+//	  "disabled_img": "images/3300.png",
+      "codes": "iron,ironpendant"
+    },
+    {
+      "name": "L-Iron Pendant",
+      "type": "toggle",
+      "codes": "liron,lironpendant"
+    },
+    {
+      "name": "Iron Pendant Tile",
+      "type": "composite_toggle",
+      "codes": "33",
+      "item_left": "iron",
+      "item_right": "liron",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/3300.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/3310.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/3301.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/3311.png"
+        }
+      ]
+    },
+
+    // Statue of Onyx
+    {
+      "name": "Statue of Onyx",
+      "type": "toggle",
+      "img": "images/3411.png",
+      "loop": "true",
+//	  "disabled_img": "images/3400.png",
+      "codes": "onyx,statueofonyx"
+    },
+    {
+      "name": "L-Onyx",
+      "type": "toggle",
+      "codes": "lonyx,lstatueofonyx"
+    },
+    {
+      "name": "Statue of Onyx Tile",
+      "type": "composite_toggle",
+      "codes": "34",
+      "item_left": "onyx",
+      "item_right": "lonyx",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/3400.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/3410.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/3401.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/3411.png"
+        }
+      ]
+    },
+
+    // Broken Statue
+    {
+      "name": "Broken Statue",
+      "type": "toggle",
+      "img": "images/3511.png",
+      "loop": "true",
+//	  "disabled_img": "images/3500.png",
+      "codes": "broken,brokenstatue"
+    },
+    {
+      "name": "L-Broken Statue",
+      "type": "toggle",
+      "codes": "lbroken,lbrokenstatue"
+    },
+    {
+      "name": "Broken Statue Tile",
+      "type": "composite_toggle",
+      "codes": "35",
+      "item_left": "broken",
+      "item_right": "lbroken",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/3500.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/3510.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/3501.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/3511.png"
+        }
+      ]
+    },
+
+    // Ivory Statue
+    {
+      "name": "Ivory Statue",
+      "type": "toggle",
+      "img": "images/3611.png",
+      "loop": "true",
+//	  "disabled_img": "images/3600.png",
+      "codes": "ivory,ivorystatue"
+    },
+    {
+      "name": "L-Ivory Statue",
+      "type": "toggle",
+      "codes": "livory,livorystatue"
+    },
+    {
+      "name": "Ivory Statue Tile",
+      "type": "composite_toggle",
+      "codes": "36",
+      "item_left": "ivory",
+      "item_right": "livory",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/3600.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/3610.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/3601.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/3611.png"
+        }
+      ]
+    },
+
+    // Deo's Pendant
+    {
+      "name": "Deo's Pendant",
+      "type": "toggle",
+      "img": "images/4011.png",
+      "loop": "true",
+//	  "disabled_img": "images/4000.png",
+      "codes": "deo,deos,deospendant"
+    },
+    {
+      "name": "L-Deo's Pendant",
+      "type": "toggle",
+      "codes": "ldeo,ldeos,ldeospendant"
+    },
+    {
+      "name": "Deo's Pendant Tile",
+      "type": "composite_toggle",
+      "codes": "40",
+      "item_left": "deo",
+      "item_right": "ldeo",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/4000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/4010.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/4001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/4011.png"
+        }
+      ]
+    },
+
+    // Rabbit Boots
+    {
+      "name": "Rabbit Boots",
+      "type": "toggle",
+      "img": "images/4111.png",
+      "loop": "true",
+//	  "disabled_img": "images/4100.png",
+      "codes": "rabbit,rabbitboots"
+    },
+    {
+      "name": "L-Rabbit Boots",
+      "type": "toggle",
+      "codes": "lrabbit,lrabbitboots"
+    },
+    {
+      "name": "Rabbit Boots Tile",
+      "type": "composite_toggle",
+      "codes": "41",
+      "item_left": "rabbit",
+      "item_right": "lrabbit",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/4100.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/4110.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/4101.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/4111.png"
+        }
+      ]
+    },
+
+    // Speed Boots
+    {
+      "name": "Speed Boots",
+      "type": "toggle",
+      "img": "images/4211.png",
+      "loop": "true",
+//	  "disabled_img": "images/4200.png",
+      "codes": "speed,leather,speedboots,leatherboots"
+    },
+    {
+      "name": "L-Speed Boots",
+      "type": "toggle",
+      "codes": "lspeed,lleather,lspeedboots,lleatherboots"
+    },
+    {
+      "name": "Speed Boots Tile",
+      "type": "composite_toggle",
+      "codes": "42",
+      "item_left": "speed",
+      "item_right": "lspeed",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/4200.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/4210.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/4201.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/4211.png"
+        }
+      ]
+    },
+
+    // Shield Ring
+    {
+      "name": "Shield Ring",
+      "type": "toggle",
+      "img": "images/4311.png",
+      "loop": "true",
+//	  "disabled_img": "images/4300.png",
+      "codes": "shield,shieldring"
+    },
+    {
+      "name": "L-Shield Ring",
+      "type": "toggle",
+      "codes": "lshield,lshieldring"
+    },
+    {
+      "name": "Shield Ring Tile",
+      "type": "composite_toggle",
+      "codes": "43",
+      "item_left": "shield",
+      "item_right": "lshield",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/4300.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/4310.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/4301.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/4311.png"
+        }
+      ]
+    },
+
+    // Fog Lamp
+    {
+      "name": "Fog Lamp",
+      "type": "toggle",
+      "img": "images/4411.png",
+      "loop": "true",
+//	  "disabled_img": "images/4400.png",
+      "codes": "fog,foglamp"
+    },
+    {
+      "name": "L-Fog Lamp",
+      "type": "toggle",
+      "codes": "lfog,lfoglamp"
+    },
+    {
+      "name": "Fog Lamp Tile",
+      "type": "composite_toggle",
+      "codes": "44",
+      "item_left": "fog",
+      "item_right": "lfog",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/4400.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/4410.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/4401.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/4411.png"
+        }
+      ]
+    },
+
+    // Glowing Lamp
+    {
+      "name": "Glowing Lamp",
+      "type": "toggle",
+      "img": "images/4511.png",
+      "loop": "true",
+//	  "disabled_img": "images/4500.png",
+      "codes": "glowing,glow,glowinglamp"
+    },
+    {
+      "name": "L-Glowing Lamp",
+      "type": "toggle",
+      "codes": "lglowing,lglow,lglowinglamp"
+    },
+    {
+      "name": "Glowing Lamp Tile",
+      "type": "composite_toggle",
+      "codes": "45",
+      "item_left": "glowing",
+      "item_right": "lglowing",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/4500.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/4510.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/4501.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/4511.png"
+        }
+      ]
+    },
+
+    // Eyeglasses
+    {
+      "name": "Eyeglasses",
+      "type": "toggle",
+      "img": "images/4611.png",
+      "loop": "true",
+//	  "disabled_img": "images/3000.png",
+      "codes": "eyeglasses,eye,glasses"
+    },
+    {
+      "name": "L-Eyeglasses",
+      "type": "toggle",
+      "codes": "leyeglasses,leye,lglasses"
+    },
+    {
+      "name": "Eyeglasses Tile",
+      "type": "composite_toggle",
+      "codes": "46",
+      "item_left": "eyeglasses",
+      "item_right": "leyeglasses",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/3000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/4610.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/3001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/4611.png"
+        }
+      ]
+    },
+
+    // Refresh
+    {
+      "name": "Refresh",
+      "type": "toggle",
+      "img": "images/5011.png",
+      "loop": "true",
+//	  "disabled_img": "images/5000.png",
+      "codes": "refresh"
+    },
+    {
+      "name": "L-Refresh",
+      "type": "toggle",
+      "codes": "lrefresh"
+    },
+    {
+      "name": "Refresh Tile",
+      "type": "composite_toggle",
+      "codes": "50",
+      "item_left": "refresh",
+      "item_right": "lrefresh",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/5000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/5010.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/5001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/5011.png"
+        }
+      ]
+    },
+
+    // Paralysis
+    {
+      "name": "Paralysis",
+      "type": "toggle",
+      "img": "images/5111.png",
+      "loop": "true",
+//	  "disabled_img": "images/5100.png",
+      "codes": "paralysis"
+    },
+    {
+      "name": "L-Paralysis",
+      "type": "toggle",
+      "codes": "lparalysis"
+    },
+    {
+      "name": "Paralysis Tile",
+      "type": "composite_toggle",
+      "codes": "51",
+      "item_left": "paralysis",
+      "item_right": "lparalysis",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/5100.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/5110.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/5101.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/5111.png"
+        }
+      ]
+    },
+
+    // Telepathy
+    {
+      "name": "Telepathy",
+      "type": "toggle",
+      "img": "images/5211.png",
+      "loop": "true",
+//	  "disabled_img": "images/5200.png",
+      "codes": "telepathy"
+    },
+    {
+      "name": "L-Telepathy",
+      "type": "toggle",
+      "codes": "ltelepathy"
+    },
+    {
+      "name": "Telepathy Tile",
+      "type": "composite_toggle",
+      "codes": "52",
+      "item_left": "telepathy",
+      "item_right": "ltelepathy",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/5200.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/5210.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/5201.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/5211.png"
+        }
+      ]
+    },
+
+    // Teleport
+    {
+      "name": "Teleport",
+      "type": "toggle",
+      "img": "images/5311.png",
+      "loop": "true",
+//	  "disabled_img": "images/5300.png",
+      "codes": "teleport"
+    },
+    {
+      "name": "L-Teleport",
+      "type": "toggle",
+      "codes": "lteleport"
+    },
+    {
+      "name": "Teleport Tile",
+      "type": "composite_toggle",
+      "codes": "53",
+      "item_left": "teleport",
+      "item_right": "lteleport",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/5300.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/5310.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/5301.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/5311.png"
+        }
+      ]
+    },
+
+    // Kirisa Plant
+    {
+      "name": "Kirisa Plant",
+      "type": "toggle",
+      "img": "images/5411.png",
+      "loop": "true",
+//	  "disabled_img": "images/5400.png",
+      "codes": "kirisa,plant"
+    },
+    {
+      "name": "L-Kirisa Plant",
+      "type": "toggle",
+      "codes": "lkirisa,lplant"
+    },
+    {
+      "name": "Kirisa Plant Tile",
+      "type": "composite_toggle",
+      "codes": "54",
+      "item_left": "kirisa",
+      "item_right": "lkirisa",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/5400.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/5410.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/5401.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/5411.png"
+        }
+      ]
+    },
+
+    // Love Pendant
+    {
+      "name": "Love Pendant",
+      "type": "toggle",
+      "img": "images/5511.png",
+      "loop": "true",
+//	  "disabled_img": "images/5500.png",
+      "codes": "love,lovependant"
+    },
+    {
+      "name": "L-Love Pendant",
+      "type": "toggle",
+      "codes": "llove,llovependant"
+    },
+    {
+      "name": "Love Pendant Tile",
+      "type": "composite_toggle",
+      "codes": "55",
+      "item_left": "love",
+      "item_right": "llove",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/5500.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/5510.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/5501.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/5511.png"
+        }
+      ]
+    },
+
+    // Psycho Armor
+    {
+      "name": "Psycho Armor",
+      "type": "toggle",
+      "img": "images/5611.png",
+      "loop": "true",
+//	  "disabled_img": "images/5600.png",
+      "codes": "psycho,armor,armour,psychoarmor"
+    },
+    {
+      "name": "L-Psycho Armor",
+      "type": "toggle",
+      "codes": "lpsycho,larmor,larmour,lpsychoarmor"
+    },
+    {
+      "name": "Psycho Armor Tile",
+      "type": "composite_toggle",
+      "codes": "56",
+      "item_left": "psycho",
+      "item_right": "lpsycho",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/5600.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/5610.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/5601.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/5611.png"
+        }
+      ]
+    },
+
+    // Recover
+    {
+      "name": "Recover",
+      "type": "toggle",
+      "img": "images/6011.png",
+      "loop": "true",
+//	  "disabled_img": "images/6000.png",
+      "codes": "recover"
+    },
+    {
+      "name": "L-Recover",
+      "type": "toggle",
+      "codes": "lrecover"
+    },
+    {
+      "name": "Recover Tile",
+      "type": "composite_toggle",
+      "codes": "60",
+      "item_left": "recover",
+      "item_right": "lrecover",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/6000.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/6010.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/6001.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/6011.png"
+        }
+      ]
+    },
+
+    // Barrier
+    {
+      "name": "Barrier",
+      "type": "toggle",
+      "img": "images/6111.png",
+      "loop": "true",
+//	  "disabled_img": "images/6100.png",
+      "codes": "barrier"
+    },
+    {
+      "name": "L-Barrier",
+      "type": "toggle",
+      "codes": "lbarrier"
+    },
+    {
+      "name": "Barrier Tile",
+      "type": "composite_toggle",
+      "codes": "61",
+      "item_left": "barrier",
+      "item_right": "lbarrier",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/6100.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/6110.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/6101.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/6111.png"
+        }
+      ]
+    },
+
+    // Change
+    {
+      "name": "Change",
+      "type": "toggle",
+      "img": "images/6211.png",
+      "loop": "true",
+//	  "disabled_img": "images/6200.png",
+      "codes": "change"
+    },
+    {
+      "name": "L-Change",
+      "type": "toggle",
+      "codes": "lchange"
+    },
+    {
+      "name": "Change Tile",
+      "type": "composite_toggle",
+      "codes": "62",
+      "item_left": "change",
+      "item_right": "lchange",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/6200.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/6210.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/6201.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/6211.png"
+        }
+      ]
+    },
+
+	// Flight
+    {
+      "name": "Flight",
+      "type": "toggle",
+      "img": "images/6311.png",
+      "loop": "true",
+//	  "disabled_img": "images/6300.png",
+      "codes": "flight"
+    },
+    {
+      "name": "L-Flight",
+      "type": "toggle",
+      "codes": "lflight"
+    },
+    {
+      "name": "Flight Tile",
+      "type": "composite_toggle",
+      "codes": "63",
+      "item_left": "flight",
+      "item_right": "lflight",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/6300.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/6310.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/6301.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/6311.png"
+        }
+      ]
+    },
+
+	// Opel Statue
+    {
+      "name": "Opel Statue",
+      "type": "toggle",
+      "img": "images/6411.png",
+      "loop": "true",
+//	  "disabled_img": "images/6400.png",
+      "codes": "opel,opal,opelstatue,opalstatue"
+    },
+    {
+      "name": "L-Opel Statue",
+      "type": "toggle",
+      "codes": "lopel,lopal,lopelstatue,lopalstatue"
+    },
+    {
+      "name": "Opel Statue Tile",
+      "type": "composite_toggle",
+      "codes": "64",
+      "item_left": "opel",
+      "item_right": "lopel",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/6400.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/6410.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/6401.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/6411.png"
+        }
+      ]
+    },
+
+	// Fruit of Repun
+    {
+      "name": "Fruit of Repun",
+      "type": "toggle",
+      "img": "images/6511.png",
+      "loop": "true",
+//	  "disabled_img": "images/6500.png",
+      "codes": "repun,fruit,fruitofrepun"
+    },
+    {
+      "name": "L-Fruit of Repun",
+      "type": "toggle",
+      "codes": "lrepun,lfruit,lfruitofrepun"
+    },
+    {
+      "name": "Fruit of Repun Tile",
+      "type": "composite_toggle",
+      "codes": "65",
+      "item_left": "repun",
+      "item_right": "lrepun",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/6500.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/6510.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/6501.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/6511.png"
+        }
+      ]
+    },
+
+	// Sacred Shield
+    {
+      "name": "Sacred Shield",
+      "type": "toggle",
+      "img": "images/6611.png",
+      "loop": "true",
+//	  "disabled_img": "images/6600.png",
+      "codes": "sacred,sacredshield"
+    },
+    {
+      "name": "L-Sacred Shield",
+      "type": "toggle",
+      "codes": "lsacred,lsacredshield"
+    },
+    {
+      "name": "Sacred Shield Tile",
+      "type": "composite_toggle",
+      "codes": "66",
+      "item_left": "sacred",
+      "item_right": "lsacred",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/6600.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/6610.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/6601.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/6611.png"
+        }
+      ]
+    }
+  ]

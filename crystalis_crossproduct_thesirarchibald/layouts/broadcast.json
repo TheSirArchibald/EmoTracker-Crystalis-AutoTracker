@@ -1,0 +1,29 @@
+{
+  "tracker_broadcast": {
+    "type": "array",
+    "height": 364,
+    "orientation": "horizontal",
+    "background": "#203040",
+    "style": "wrap",
+    "content": [
+        {
+			"type": "layout",
+			"dropshadow": false,
+			"margin": 0,
+			"key": "tracker_left"
+        },
+        {
+			"type": "layout",
+			"dropshadow": true,
+			"margin": 0,
+			"key": "tracker_right"
+        },
+        {
+            "type": "map",
+			"maps": [ "map_full" ],
+			"width": 412,
+			"dropshadow": true
+        }		
+    ]
+  }
+}

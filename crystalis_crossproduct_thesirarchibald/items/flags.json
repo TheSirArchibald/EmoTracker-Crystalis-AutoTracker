@@ -1,0 +1,135 @@
+[
+    // (Sb) Shuffle bonus items
+    {
+      "name": "Flag Sb",
+      "type": "toggle",
+	  "initial_active_state": true,
+      "img": "images/flags/Sb.png",
+	  "disabled_img": "images/flags/Sb_off.png",
+      "codes": "flag_sb"
+    },
+
+    // (Sc) Shuffle consumables
+    {
+      "name": "Flag Sc",
+      "type": "toggle",
+	  "initial_active_state": true,
+      "img": "images/flags/Sc.png",
+	  "disabled_img": "images/flags/Sc_off.png",
+      "codes": "flag_sc"
+    },
+
+    // (Sk) Shuffle key items
+    {
+      "name": "Flag Sk",
+      "type": "toggle",
+	  "initial_active_state": true,
+      "value": 1,
+      "img": "images/flags/Sk.png",
+	  "disabled_img": "images/flags/Sk_off.png",
+      "codes": "flag_sk"
+    },
+
+    // (Sm) Shuffle magics
+    {
+      "name": "Flag Sm",
+      "type": "toggle",
+	  "initial_active_state": true,
+      "img": "images/flags/Sm.png",
+	  "disabled_img": "images/flags/Sm_off.png",
+      "codes": "flag_sm"
+    },
+
+    // (St) Shuffle traps
+    {
+      "name": "Flag St",
+      "type": "toggle",
+	  "initial_active_state": true,
+      "img": "images/flags/St.png",
+	  "disabled_img": "images/flags/St_off.png",
+      "codes": "flag_st"
+    },
+
+
+
+    // (Hw) Battle magic not guarenteed
+    {
+      "name": "Flag Hw",
+      "type": "toggle",
+      "img": "images/0011.png",
+	  "disabled_img": "images/0000.png",
+      "codes": "flag_hw"
+    },
+	
+    // (Hb) Barrier not guarenteed
+    {
+      "name": "Flag Hb",
+      "type": "toggle",
+      "img": "images/0011.png",
+	  "disabled_img": "images/0000.png",
+      "codes": "flag_hb"
+    },
+	
+    // (Hg) Gas mask not guarenteed
+    {
+      "name": "Flag Hg",
+      "type": "toggle",
+      "img": "images/0011.png",
+	  "disabled_img": "images/0000.png",
+      "codes": "flag_hg"
+    },
+	
+	// (Hs) Matching sword not guaranteed
+    {
+      "name": "Flag Hs",
+      "type": "toggle",
+      "img": "images/0011.png",
+	  "disabled_img": "images/0000.png",
+      "codes": "flag_hs"
+    },
+	
+	// (Ts) Leather boots are speed boots
+	{
+		"name": "Flag Ts",
+		"type": "toggle",
+		"img": "images/0011.png",
+		"disabled_img": "images/0000.png",
+		"codes": "flag_ts"
+    },
+	
+	// (Rt) Sword of Thunder teleports to Shyron
+	{
+		"name": "Flag Rt",
+		"type": "toggle",
+		"img": "images/0011.png",
+		"disabled_img": "images/0000.png",
+		"codes": "flag_rt"
+    },
+	
+	// (Rd) Require healing dolphin to return fog lamp
+	{
+		"name": "Flag Rd",
+		"type": "toggle",
+		"img": "images/0011.png",
+		"disabled_img": "images/0000.png",
+		"codes": "flag_rd"
+    },
+	
+	// (Rt) Wind-waterfall passage
+	{
+		"name": "Flag Rp",
+		"type": "toggle",
+		"img": "images/0011.png",
+		"disabled_img": "images/0000.png",
+		"codes": "flag_rp"
+    },
+	
+	// (Rt) No "free lunch" magic
+	{
+		"name": "Flag Rl",
+		"type": "toggle",
+		"img": "images/0011.png",
+		"disabled_img": "images/0000.png",
+		"codes": "flag_rl"
+    }
+]
